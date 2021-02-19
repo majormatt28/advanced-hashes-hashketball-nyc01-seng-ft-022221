@@ -187,7 +187,7 @@ def big_shoe_rebounds
     team_values[:players].each do |attribute|
       shoe_size = attribute[:shoe]
       if shoe_size > rebounds
-      
+
     end
   end
 end
