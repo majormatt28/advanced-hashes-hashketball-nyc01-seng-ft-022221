@@ -189,6 +189,7 @@ def big_shoe_rebounds
       if shoe_size > biggest_feet
         biggest_feet = shoe_size
         rebounds = attribute[:rebounds]
+      end
     end
   end
 end
