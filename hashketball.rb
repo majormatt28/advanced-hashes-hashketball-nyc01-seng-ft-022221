@@ -186,6 +186,7 @@ def big_shoe_rebounds
   game_hash.each do |team_keys, team_values|
     binding.pry
     team_values[:players].each do |attribute|
+      shoe_size = attribute[:shoe]
     end
   end
 end
